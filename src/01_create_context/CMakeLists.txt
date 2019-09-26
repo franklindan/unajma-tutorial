@@ -1,5 +1,5 @@
 # Target name
-set(target gl_context)
+set(target 01_context)
 
 find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)

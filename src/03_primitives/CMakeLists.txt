@@ -1,5 +1,5 @@
 # Target name
-set(target gl_primitives)
+set(target 03_primitives)
 
 find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)
