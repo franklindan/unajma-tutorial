@@ -1,5 +1,5 @@
 # Target name
-set(target 04_3D_scene_tucano)
+set(target 04_texture)
 
 find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)

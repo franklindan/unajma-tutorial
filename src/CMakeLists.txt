@@ -1,4 +1,5 @@
 add_subdirectory(01_create_context)
 add_subdirectory(02_load_shader)
 add_subdirectory(03_primitives)
-add_subdirectory(04_3D_scene_tucano)
+add_subdirectory(04_texture)
+add_subdirectory(05_3D_scene_tucano)
