@@ -1,1 +1,3 @@
 add_subdirectory(01_create_context)
+add_subdirectory(02_load_shader)
+add_subdirectory(03_primitives)
