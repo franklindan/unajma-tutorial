@@ -3,6 +3,7 @@ set(target gl_context)
 
 find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 ## Begin stratmod library
 

@@ -1,15 +1,9 @@
 
-// Include Tucano Library
+
 #include "Tucano/Misc.hpp"
-#include "Tucano/Shader.hpp"
-
-// Include GlEW Library
 #include <GL/glew.h>
-
-// Include  glfw3
 #include <GLFW/glfw3.h>
 
-// C++ Standard Library 
 #include <iostream>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
@@ -46,11 +40,6 @@ int main()
 
     // Print information about the Context
     Tucano::Misc::OpenGLInformation();
-
-    // Load Vertex and Fragment Shader
-    Tucano::Shader * shader = new Tucano::Shader("Simple Triangle", "asserts/vertex.glsl", "asserts/fragment.glsl", "", "", "");
-
-    shader->initialize();   
 
     // render loop
     // -----------
