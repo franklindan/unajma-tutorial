@@ -1,5 +1,5 @@
 # Target name
-set(target 02_shaders)
+set(target 02_load_shaders)
 
 find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)
